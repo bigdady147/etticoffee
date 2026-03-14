@@ -1,0 +1,56 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+cypress/videos/
+cypress/screenshots/
+__screenshots__/
+
+# Vitest
+*.tsbuildinfo
+.eslintcache
+
+# Vite
+*.timestamp-*-*.mjs
+
+# Project specific: Extraction and Temporary scripts
+detail_raw.html
+stitch_raw.html
+stitch_raw_updated.html
+extract.js
+extract_sections.js
+download_assets.js
+/tmp/
