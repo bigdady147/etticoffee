@@ -15,7 +15,7 @@ useSeoMeta({
     description: 'Chi tiết gói đầu tư nhượng quyền Eti Coffee. Hỗ trợ toàn diện từ thiết kế mặt bằng, trang thiết bị máy móc đến quy trình vận hành chuỗi cà phê chuyên nghiệp.',
     ogTitle: 'Gói Nhượng Quyền Eti Coffee - Đầu Tư Thông Minh',
     ogDescription: 'Giải pháp kinh doanh cà phê pha máy toàn diện. Hỗ trợ đối tác 24/7 và đào tạo chuyên sâu.',
-    ogImage: '/images/meta_image.webp',
+    ogImage: '/images/meta_image.jpg',
 })
 
 useHead({
