@@ -48,7 +48,7 @@
             <!-- Added Showcase Image (Desktop Only) - Blended into background -->
             <div class="hidden md:block mt-16 lg:mt-24 relative">
                 <div class="relative overflow-hidden rounded-[3rem]">
-                    <img class="w-full h-auto journey-image-blend" src="/images/mat_truoc.jpg"
+                    <img class="w-full h-auto journey-image-blend" src="/images/mat_truoc.webp"
                         alt="Eti Coffee Franchise Front View" />
                 </div>
                 <!-- Decorative Glow -->
