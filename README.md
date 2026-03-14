@@ -1,42 +1,53 @@
-# etticoffee_v2
+# Eti Coffee - Hệ thống Nhượng quyền Cà phê Chuyên nghiệp
 
-This template should help get you started developing with Vue 3 in Vite.
+Chào mừng bạn đến với repo của **Eti Coffee** (v2). Đây là dự án website giới thiệu giải pháp nhượng quyền cà phê pha máy hàng đầu tại Việt Nam.
 
-## Recommended IDE Setup
+## 🚀 Hướng dẫn Cài đặt & Setup
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Nếu bạn vừa clone dự án này về máy lần đầu, hãy làm theo các bước sau:
 
-## Recommended Browser Setup
+### 1. Yêu cầu hệ thống
+*   **Node.js**: Phiên bản 20.19.0 hoặc >= 22.12.0 (nên dùng bản LTS mới nhất).
+*   **NPM**: Thường đi kèm với Node.js.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+### 2. Cài đặt Dependencies
+Mở terminal tại thư mục gốc của dự án và chạy lệnh:
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
+### 3. Chạy môi trường Phát triển (Development)
+Để xem website trên máy cục bộ với tính năng Hot-Reload:
 ```sh
 npm run dev
 ```
+Sau đó, truy cập vào link (thường là `http://localhost:5173`) hiển thị trong terminal.
 
-### Type-Check, Compile and Minify for Production
-
+### 4. Build dự án (Production)
+Để đóng gói dự án cho việc triển khai (deployment):
 ```sh
 npm run build
 ```
+Thư mục `/dist` sẽ được tạo ra chứa mã nguồn đã tối ưu.
+
+---
+
+## 🛠 Công nghệ sử dụng
+*   **Core**: Vue 3 (Composition API)
+*   **Build Tool**: Vite
+*   **Styling**: Tailwind CSS & SCSS
+*   **SEO**: Unhead Vue (`useSeoMeta`, `useHead`)
+*   **Animations**: Swiper.js, CSS Animations
+*   **Language**: TypeScript
+
+## 📁 Cấu trúc thư mục chính
+*   `src/views/`: Chứa các trang chính (Home, Franchise Details).
+*   `src/components/`: Các component dùng chung.
+*   `public/`: Chứa tài nguyên tĩnh (ảnh, logo, meta images).
+*   `index.html`: File HTML gốc với cấu hình Meta SEO.
+
+## 📝 Ghi chú về SEO
+Dự án đã được tối ưu hóa SEO với đầy đủ các thẻ Open Graph (OG) cho Zalo/Facebook. Khi thay đổi ảnh preview, hãy thay thế file tại `public/images/meta_image.png` (giữ kích thước 1200x630px để hiển thị đẹp nhất).
+
+---
+*Phát triển bởi đội ngũ Eti Coffee.*
