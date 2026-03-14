@@ -24,6 +24,9 @@ useHead({
             name: 'keywords',
             content: 'gói nhượng quyền eti coffee, đầu tư quán cà phê, thiết bị quán cafe, chính sách nhượng quyền'
         }
+    ],
+    link: [
+        { rel: 'icon', href: '/images/logo_main.png' }
     ]
 })
 
