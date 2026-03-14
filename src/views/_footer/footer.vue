@@ -5,7 +5,7 @@
                 <div class="space-y-6">
                     <div class="flex items-center gap-3">
                         <img alt="Eti Coffee Logo" class="h-10 w-auto" data-alt="Eti Coffee white logo symbol"
-                            src="/images/image_14.webp" />
+                            src="/images/logo_main.png" />
                         <span class="text-xl font-black tracking-tight text-white">ETI COFFEE</span>
                     </div>
                     <p class="text-slate-400 text-sm leading-relaxed">
