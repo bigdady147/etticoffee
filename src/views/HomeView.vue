@@ -7,6 +7,7 @@ import KeyFiguresSection from './details/KeyFiguresSection.vue';
 import AboutUsSection from './details/AboutUsSection.vue';
 import FranchiseModelsSection from './details/FranchiseModelsSection.vue';
 import EquipmentSection from './details/EquipmentSection.vue';
+import PhotoGallerySection from './details/PhotoGallerySection.vue';
 import OurJourneySection from './details/OurJourneySection.vue';
 import MapNetworkSection from './details/MapNetworkSection.vue';
 import ContactFormSection from './details/ContactFormSection.vue';
@@ -57,6 +58,7 @@ useHead({
             <AboutUsSection />
             <FranchiseModelsSection />
             <EquipmentSection />
+            <PhotoGallerySection />
             <OurJourneySection />
             <MapNetworkSection />
             <!-- <ContactFormSection /> -->

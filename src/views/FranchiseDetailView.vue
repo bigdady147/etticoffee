@@ -5,6 +5,7 @@ import HeaderComponent from './_header/header.vue';
 import FooterComponent from './_footer/footer.vue';
 import HeroDetailSection from './details_page/HeroDetailSection.vue';
 import PackageBreakdownSection from './details_page/PackageBreakdownSection.vue';
+import ComboChecklistSection from './details_page/ComboChecklistSection.vue';
 import TechnicalSpecsSection from './details_page/TechnicalSpecsSection.vue';
 import SpecializedEquipmentSection from './details_page/SpecializedEquipmentSection.vue';
 import SupportPoliciesSection from './details_page/SupportPoliciesSection.vue';
@@ -54,8 +55,9 @@ onMounted(() => {
         <main>
             <HeroDetailSection />
             <PackageBreakdownSection />
+            <ComboChecklistSection />
             <TechnicalSpecsSection />
-            <SpecializedEquipmentSection />
+            <!-- <SpecializedEquipmentSection /> -->
             <SupportPoliciesSection />
         </main>
         <FooterComponent />
