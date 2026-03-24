@@ -14,11 +14,16 @@ const journeySteps = ref([
     },
     {
         id: '03',
+        title: 'Sơ chế',
+        description: 'Sơ chế khép kín - phơi giàn'
+    },
+    {
+        id: '04',
         title: 'Rang xay',
         description: 'Công nghệ rang Hot-air hiện đại giữ trọn vẹn hương vị.'
     },
     {
-        id: '04',
+        id: '05',
         title: 'Thưởng thức',
         description: 'Phục vụ những ly cà phê chuẩn vị máy đến khách hàng.'
     }
@@ -37,7 +42,7 @@ const journeySteps = ref([
             <div class="relative">
                 <div class="hidden lg:block absolute top-1/2 left-0 w-full h-0.5 bg-white/20 -translate-y-1/2 z-0">
                 </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12 lg:gap-8 relative z-10">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 md:gap-12 lg:gap-8 relative z-10">
                     <div v-for="step in journeySteps" :key="step.id" class="text-center space-y-4">
                         <div
                             class="size-20 mx-auto bg-white text-coffee-green rounded-full flex items-center justify-center text-3xl font-black shadow-xl ring-8 ring-white/10">
@@ -51,7 +56,7 @@ const journeySteps = ref([
             <!-- Added Showcase Image (Desktop Only) - Blended into background -->
             <div class="hidden md:block mt-16 lg:mt-24 relative">
                 <div class="relative overflow-hidden rounded-[3rem]">
-                    <img class="w-full h-auto journey-image-blend" src="/images/mat_truoc.webp"
+                    <img class="w-full h-auto journey-image-blend" src="/images/mat_truoc_123.png"
                         alt="Eti Coffee Franchise Front View" />
                 </div>
                 <!-- Decorative Glow -->

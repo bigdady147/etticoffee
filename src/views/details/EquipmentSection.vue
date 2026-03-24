@@ -28,7 +28,7 @@ const equipmentRightColumn = ref([
     {
         title: 'Dụng cụ Barista',
         subtitle: 'Phụ kiện đầy đủ',
-        src: '/images/may_pha1.jpg',
+        src: '/images/image_10.webp',
         alt: 'Coffee Barista Tools kit',
     }
 ]);
