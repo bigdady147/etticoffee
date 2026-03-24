@@ -29,7 +29,7 @@
                     <li class="flex items-start gap-4">
                         <span
                             class="material-symbols-outlined text-primary bg-primary/10 p-1 rounded-full text-xl">check</span>
-                        <span class="font-medium">Kiểm soát chất lượng từ nông trại riêng tại Đắk Lắk</span>
+                        <span class="font-medium">Kiểm soát chất lượng từ nông trại riêng tại Đắk Nông</span>
                     </li>
                     <li class="flex items-start gap-4">
                         <span

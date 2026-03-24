@@ -1,4 +1,28 @@
 <script setup lang="ts">
+import { ref } from 'vue';
+
+const journeySteps = ref([
+    {
+        id: '01',
+        title: 'Nông trại',
+        description: 'Vùng nguyên liệu sạch tại Đắk Nông được chăm sóc hữu cơ.'
+    },
+    {
+        id: '02',
+        title: 'Thu hoạch',
+        description: 'Tuyển chọn những trái chín mọng nhất hoàn toàn bằng tay.'
+    },
+    {
+        id: '03',
+        title: 'Rang xay',
+        description: 'Công nghệ rang Hot-air hiện đại giữ trọn vẹn hương vị.'
+    },
+    {
+        id: '04',
+        title: 'Thưởng thức',
+        description: 'Phục vụ những ly cà phê chuẩn vị máy đến khách hàng.'
+    }
+]);
 </script>
 <template>
     <section id="journey" class="py-16 md:py-24 bg-coffee-green text-white">
@@ -14,33 +38,12 @@
                 <div class="hidden lg:block absolute top-1/2 left-0 w-full h-0.5 bg-white/20 -translate-y-1/2 z-0">
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12 lg:gap-8 relative z-10">
-                    <div class="text-center space-y-4">
+                    <div v-for="step in journeySteps" :key="step.id" class="text-center space-y-4">
                         <div
                             class="size-20 mx-auto bg-white text-coffee-green rounded-full flex items-center justify-center text-3xl font-black shadow-xl ring-8 ring-white/10">
-                            01</div>
-                        <h5 class="text-xl font-bold">Nông trại</h5>
-                        <p class="text-sm text-slate-300">Vùng nguyên liệu sạch tại Đắk Lắk được chăm sóc hữu cơ.</p>
-                    </div>
-                    <div class="text-center space-y-4">
-                        <div
-                            class="size-20 mx-auto bg-white text-coffee-green rounded-full flex items-center justify-center text-3xl font-black shadow-xl ring-8 ring-white/10">
-                            02</div>
-                        <h5 class="text-xl font-bold">Thu hoạch</h5>
-                        <p class="text-sm text-slate-300">Tuyển chọn những trái chín mọng nhất hoàn toàn bằng tay.</p>
-                    </div>
-                    <div class="text-center space-y-4">
-                        <div
-                            class="size-20 mx-auto bg-white text-coffee-green rounded-full flex items-center justify-center text-3xl font-black shadow-xl ring-8 ring-white/10">
-                            03</div>
-                        <h5 class="text-xl font-bold">Rang xay</h5>
-                        <p class="text-sm text-slate-300">Công nghệ rang Hot-air hiện đại giữ trọn vẹn hương vị.</p>
-                    </div>
-                    <div class="text-center space-y-4">
-                        <div
-                            class="size-20 mx-auto bg-white text-coffee-green rounded-full flex items-center justify-center text-3xl font-black shadow-xl ring-8 ring-white/10">
-                            04</div>
-                        <h5 class="text-xl font-bold">Thưởng thức</h5>
-                        <p class="text-sm text-slate-300">Phục vụ những ly cà phê chuẩn vị máy đến khách hàng.</p>
+                            {{ step.id }}</div>
+                        <h5 class="text-xl font-bold">{{ step.title }}</h5>
+                        <p class="text-sm text-slate-300">{{ step.description }}</p>
                     </div>
                 </div>
             </div>

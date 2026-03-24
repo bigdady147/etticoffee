@@ -19,7 +19,7 @@
                     <span class="material-symbols-outlined text-3xl">storefront</span>
                 </div>
                 <p class="text-2xl md:text-3xl font-black text-slate-900 dark:text-white mb-1">100+</p>
-                <p class="text-xs font-medium text-slate-500 uppercase tracking-tighter">Điểm bán</p>
+                <p class="text-xs font-medium text-slate-500 uppercase tracking-tighter">Đối tác hợp tác </p>
             </div>
             <div
                 class="bg-white dark:bg-background-dark p-6 md:p-8 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800 text-center flex flex-col items-center group hover:-translate-y-2 transition-transform">
@@ -28,7 +28,7 @@
                     <span class="material-symbols-outlined text-3xl">landscape</span>
                 </div>
                 <p class="text-2xl md:text-3xl font-black text-slate-900 dark:text-white mb-1">200+</p>
-                <p class="text-xs font-medium text-slate-500 uppercase tracking-tighter">Nông trại</p>
+                <p class="text-xs font-medium text-slate-500 uppercase tracking-tighter"> Liên kết nông hộ</p>
             </div>
             <div
                 class="bg-white dark:bg-background-dark p-6 md:p-8 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800 text-center flex flex-col items-center group hover:-translate-y-2 transition-transform">

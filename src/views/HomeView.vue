@@ -15,7 +15,7 @@ import ContactFormSection from './details/ContactFormSection.vue';
 // SEO Optimization
 useSeoMeta({
     title: 'Eti Coffee - Giải Pháp Nhượng Quyền Cà Phê Chuyên Nghiệp Hàng Đầu',
-    description: 'Chuyên gia cung cấp giải pháp mô hình cà phê pha máy chuyên nghiệp tại Việt Nam. 10 năm kinh nghiệm, 100+ điểm bán, chất lượng từ nông trại Đắk Lắk.',
+    description: 'Chuyên gia cung cấp giải pháp mô hình cà phê pha máy chuyên nghiệp tại Việt Nam. 10 năm kinh nghiệm, 100+ đối tác hợp tác, chất lượng từ nông trại Đắk Nông.',
     ogTitle: 'Eti Coffee - Giải Pháp Nhượng Quyền Cà Phê Chuyên Nghiệp',
     ogDescription: 'Khám phá mô hình nhượng quyền cà phê tối ưu lợi nhuận cùng Eti Coffee. Hỗ trợ toàn diện từ A-Z.',
     ogImage: () => `${window.location.origin}/images/meta_image.png`,
@@ -26,7 +26,7 @@ useSeoMeta({
     ogUrl: () => window.location.origin,
     twitterCard: 'summary_large_image',
     twitterTitle: 'Eti Coffee - Giải Pháp Nhượng Quyền Cà Phê',
-    twitterDescription: 'Hệ thống 100+ điểm bán chuyên nghiệp trên toàn quốc.',
+    twitterDescription: 'Hệ thống 100+ đối tác hợp tác trên toàn quốc.',
     robots: 'index, follow',
 })
 

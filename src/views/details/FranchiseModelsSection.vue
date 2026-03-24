@@ -29,7 +29,7 @@ const router = useRouter();
                             phòng.</p>
                         <div class="flex items-baseline gap-2 mb-8">
                             <span class="text-sm text-slate-400">Đầu tư từ:</span>
-                            <span class="text-2xl font-black text-primary">45 - 60 Triệu</span>
+                            <span class="text-2xl font-black text-primary">35 - 60 Triệu</span>
                         </div>
                         <button @click="router.push('/franchise-detail')"
                             class="w-full py-4 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold rounded-xl transition-colors">
